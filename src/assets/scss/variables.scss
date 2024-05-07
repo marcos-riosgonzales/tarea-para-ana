@@ -1,0 +1,22 @@
+$background: #ffa03a;
+$whidthContainer: 100px;
+$heightContainer: 100px;
+$fontSize: 30px;
+$font-style: italic;
+$testimonioText: bold;
+:export{
+    background: $background;
+    widthContainer:$whidthContainer;
+    heightContainer: $heightContainer;
+    font-size: $fontSize;
+    font-style: $font-style;
+    font-style: $testimonioText;
+}
+
+//img
+$whidthImage: 30%;
+$heightImage: 40%;
+:export{
+    height: $heightImage;
+    width: $whidthImage;
+}
