@@ -1,13 +1,10 @@
 @import "./variables.scss";
-body{
-    background-color: aliceblue;
-}
 .prueba{
     display: flex;
     align-items: center;
     padding: 30px;
     background-color: $background;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-bottom: 20px;
     margin: 30px;
 }
@@ -41,5 +38,4 @@ body{
 }
 h1{
     text-align: center;
-    color: black;
 }
